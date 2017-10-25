@@ -1,0 +1,245 @@
+1|Capital Construction Costs
+1.01|Demolition, site preparation and formation
+1.01.010|Site survey and investigation
+1.01.020|Environmental treatment
+1.01.030|Sampling for construction, geophysical, geological or similar purposes
+1.01.040|Temporary fencing
+1.01.050|Demolition of existing buildings and support to adjacent structures
+1.01.060|Site surface clearance (clearing, grubbing, topsoil stripping, tree felling, minor earthwork, removal)
+1.01.070|Tree transplant
+1.01.080|Site formation and slope treatment
+1.01.090|Temporary surface drainage and dewatering
+1.01.100|Temporary protection, diversion and relocation of public utilities
+1.02|Substructure
+1.02.010|Foundation piling and underpinning:
+1.02.010.010|- mobilisation and demobilisation
+1.02.010.020|- trial piles and caisson
+1.02.010.030|- permanent piles and caisson
+1.02.010.040|- pile and caisson testing
+1.02.010.050|- underpinning
+1.02.020|Foundations up to top of lowest floor slabs:
+1.02.020.010|- excavation and disposal
+1.02.020.020|- lateral supports
+1.02.020.030|- raft footings, pile caps, column bases, wall footings, strap beams, tie beams
+1.02.020.040|- substructure walls and columns
+1.02.020.050|- lowest floor slabs and beams (excluding basement bottom slabs)
+1.02.020.060|- lift pits
+1.02.030|Basement sides and bottom:
+1.02.030.010|- excavation and disposal
+1.02.030.020|- lateral supports
+1.02.030.030|- bottom slabs and blinding
+1.02.030.040|- sides
+1.02.030.050|- vertical waterproof tanking, drainage blanket, drains and skin wall
+1.02.030.060|- horizontal waterproof tanking, drainage blanket, drains and topping slab
+1.02.030.070|- insulation
+1.02.030.080|- lift pits, sump pits, sleeves
+1.03|Structure
+1.03.010|Structural removal and alterations
+1.03.020|Basement suspended floors (up to top of ground floor slabs):
+1.03.020.010|- structural walls and columns
+1.03.020.020|- beams and slabs
+1.03.020.030|- staircases
+1.03.030|Frames and slabs (above top of ground floor slabs):
+1.03.030.010|- structural walls and columns
+1.03.030.020|- upper floor beams and slabs
+1.03.030.030|- roof beams and slabs
+1.03.030.040|- staircases
+1.03.030.050|- fireproofing to steel structure
+1.03.040|Tanks, pools, sundries
+1.04|Architectural works | Non-structural works
+1.04.010|Non-structural removal and alterations
+1.04.020|External elevations:
+1.04.020.010|- non-structural external walls and features
+1.04.020.020|- external wall finishes except cladding
+1.04.020.030|- facade cladding and curtain walls
+1.04.020.040|- external windows
+1.04.020.050|- external doors
+1.04.020.060|- external shop fronts
+1.04.020.070|- roller shutters and fire shutters
+1.04.030|Roof finishes, skylights and landscaping (including waterproofing and insulation):
+1.04.030.010|- roof finishes
+1.04.030.020|- skylights
+1.04.030.030|- other roof features
+1.04.030.040|- roof landscaping (hard and soft)
+1.04.040|Internal divisions:
+1.04.040.010|- non-structural internal walls and partitions
+1.04.040.020|- shop fronts
+1.04.040.030|- toilet cubicles
+1.04.040.040|- moveable partitions
+1.04.040.050|- cold rooms
+1.04.040.060|- internal doors
+1.04.040.070|- internal windows
+1.04.040.080|- roller shutters and fire shutters
+1.04.040.090|- sundry concrete work
+1.04.050|Fittings and sundries:
+1.04.050.010|- balustrades, railings and handrails
+1.04.050.020|- staircases and catwalk not forming part of the structure, cat ladders
+1.04.050.030|- cabinets, cupboards, shelves, counters, benches, notice boards, blackboards
+1.04.050.040|- exit signs, directory signs
+1.04.050.050|- window and door dressings
+1.04.050.060|- decorative features
+1.04.050.070|- interior landscaping
+1.04.050.080|- access panels, fire service cabinets
+1.04.050.090|- sundries
+1.04.060|Finishes under cover:
+1.04.060.010|- floor finishes (internal and external)
+1.04.060.020|- internal wall finishes and cladding
+1.04.060.030|- ceiling finishes and false ceilings (internal or external)
+1.04.070|Builder's work in connection with services:
+1.04.070.010|- plinth, bases
+1.04.070.020|- fire-proofing enclosure
+1.04.070.030|- hoisting beams, lift pit separation screens
+1.04.070.040|- suspended manholes
+1.04.070.050|- cable trenches, trench covers
+1.04.070.060|- sleeves, openings and the like not allowed for in 'Fittings and sundries'
+1.05|Services and equipment
+1.05.010|Heating, ventilating and air-conditioning systems/air conditioners:
+1.05.010.010|- seawater system
+1.05.010.020|- cooling water system
+1.05.010.030|- chilled water system
+1.05.010.040|- heating water system
+1.05.010.050|- steam and condensate system
+1.05.010.060|- fuel oil system
+1.05.010.070|- water treatment
+1.05.010.080|- air handling and distribution system
+1.05.010.090|- condensate drain system
+1.05.010.100|- unitary air-conditioning system
+1.05.010.110|- mechanical ventilation system
+1.05.010.120|- kitchen ventilation system
+1.05.010.130|- fume-extraction system
+1.05.010.140|- anaesthetic gas-extraction system
+1.05.010.150|- window and split-type air conditioners
+1.05.010.160|- air-curtains
+1.05.010.170|- fans
+1.05.010.180|- related electrical and control systems
+1.05.010.190|- submissions, testing and commissioning
+1.05.020|Electrical services:
+1.05.020.010|- high-voltage transformers and switchboards
+1.05.020.020|- incoming mains, low-voltage transformers and switchboards
+1.05.020.030|- mains and submains
+1.05.020.040|- standby system
+1.05.020.050|- lighting and power
+1.05.020.060|- uninterruptible power supply
+1.05.020.070|- electric underfloor heating
+1.05.020.080|- local electrical heating units
+1.05.020.090|- earthing/lightning protection and bonding
+1.05.020.100|- submissions, testing and commissioning
+1.05.030|Fitting out lighting fittings
+1.05.040|Extra low voltage electrical services:
+1.05.040.010|- communications
+1.05.040.020|- staff paging/location
+1.05.040.030|- public address system
+1.05.040.040|- building automation
+1.05.040.050|- security and alarm
+1.05.040.060|- close circuit television
+1.05.040.070|- communal aerial broadcast distribution and the like
+1.05.040.080|- submissions, testing and commissioning
+1.05.050|Water supply and above ground drainage:
+1.05.050.010|- cold water supply
+1.05.050.020|- hot water supply
+1.05.050.030|- flushing water supply
+1.05.050.040|- grey water supply
+1.05.050.050|- cleansing water supply
+1.05.050.060|- irrigation water supply
+1.05.050.070|- rainwater disposal
+1.05.050.080|- soil and waste disposal
+1.05.050.090|- planter drainage disposal
+1.05.050.100|- kitchen drainage disposal
+1.05.050.110|- related electrical and control systems
+1.05.050.120|- submissions, testing and commissioning
+1.05.060|Supply of sanitary fittings
+1.05.070|Disposal systems:
+1.05.070.010|- refuse
+1.05.070.020|- laboratory waste
+1.05.070.030|- industrial waste
+1.05.070.040|- incinerator
+1.05.070.050|- submissions, testing and commissioning
+1.05.080|Fire services:
+1.05.080.010|- fire hydrant and hose reel system
+1.05.080.020|- wet risers
+1.05.080.030|- sprinkler system
+1.05.080.040|- deluge system
+1.05.080.050|- gaseous extinguishing system
+1.05.080.060|- foam extinguishing system
+1.05.080.070|- audio/visual advisory system
+1.05.080.080|- automatic fire alarm and detection system
+1.05.080.090|- portable hand-operated appliances
+1.05.080.100|- related electrical and control systems
+1.05.080.110|- submissions, testing and commissioning
+1.05.090|Gas services:
+1.05.090.010|- coal gas
+1.05.090.020|- natural gas
+1.05.090.030|- liquid petroleum gas
+1.05.090.040|- medical gas/laboratory gas
+1.05.090.050|- industrial gas/compressed air/instrument air
+1.05.090.060|- vacuum
+1.05.090.070|- steam
+1.05.090.080|- submissions, testing and commissioning
+1.05.100|Movement systems:
+1.05.100.010|- lifts | elevators
+1.05.100.020|- platform lifts
+1.05.100.030|- escalators
+1.05.100.040|- travellators | moving walkways
+1.05.100.050|- conveyors
+1.05.100.060|- submissions, testing and commissioning
+1.05.110|Gondolas
+1.05.120|Turntables
+1.05.130|Generators
+1.05.140|Energy-saving features
+1.05.150|Waste water treatment
+1.05.160|Fountains, pools and filtration plant
+1.05.170|Powered building signage
+1.05.180|Kitchen equipment
+1.05.190|Cold room equipment
+1.05.200|Laboratory equipment
+1.05.210|Medical equipment
+1.05.220|Hotel equipment
+1.05.230|Car park or entrances access control
+1.05.240|Domestic appliances
+1.05.250|Other specialist services
+1.05.260|Builder's profit and attendance on services
+1.06|Surface and underground drainage
+1.06.010|Surface water drainage
+1.06.020|Storm water drainage
+1.06.030|Foul water drainage
+1.06.040|Drainage disconnections and connections
+1.06.050|CCTV inspection of existing or new drains
+1.07|External and ancillary works
+1.07.010|Permanent retaining structures
+1.07.020|Site enclosures and divisions
+1.07.030|Ancillary structures
+1.07.040|Roads and paving
+1.07.050|Landscaping (hard and soft)
+1.07.060|Fittings and equipment
+1.07.070|External services:
+1.07.070.010|- water supply
+1.07.070.020|- gas supply
+1.07.070.030|- power supply
+1.07.070.040|- communications supply
+1.07.070.050|- external lighting
+1.07.070.060|- utility disconnections and connections
+1.08|Preliminaries | Constructor's site overheads | general requirements (j)
+1.08.010|Construction management including site management staff and support labour
+1.08.020|Temporary access roads and storage areas, traffic management and diversion (at the
+1.08|discretion)
+1.08.030|Temporary site fencing and securities
+1.08.040|Commonly shared construction plant
+1.08.050|Commonly shared scaffolding
+1.08.060|Other temporary facilities and services
+1.08.070|Technology and communications: telephone, broadband, hardware, software
+1.08.080|Constructor's submissions, reports and as-built documentation
+1.08.090|Quality monitoring, recording and inspections
+1.08.100|Safety, health and environmental management
+1.08.110|Insurances, bonds, guarantees and warranties
+1.08.120|Constructor's statutory fees and charges
+1.08.130|Testing and commissioning
+1.09|Risk Allowances (j), (k)
+1.09.010|Design development allowance (l)
+1.09.020|Construction contingencies (m)
+1.09.030|Price Level Adjustments:
+1.09.030.010|- until tendering (n)
+1.09.030.020|- during construction (n)
+1.09.040|Exchange rate fluctuation adjustments
+1.10|Taxes and Levies (j)
+1.10.010|Paid by the Constructor
+1.10.020|Paid by the Client in relation to the construction contract payments

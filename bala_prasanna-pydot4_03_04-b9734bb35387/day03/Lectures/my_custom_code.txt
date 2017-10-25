@@ -1,0 +1,6 @@
+
+1.03.020.020|internal_code_1|concrete 1|grade|price|quantity
+1.03.020.020|internal_code_2|concrete 2|grade|price|quantity
+1.05.040.020|internal_code_2|concrete 2|grade|price|quantity
+1.05.050.030|internal_code_2|concrete 2|grade|price|quantity
+1.05.050.100|internal_code_2|concrete 2|grade|price|quantity

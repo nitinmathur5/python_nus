@@ -1,0 +1,856 @@
+_id,year,level_1,value
+1,1960,Total Residents,1646400
+2,1960,Total Male Residents,859600
+3,1960,Total Female Residents,786800
+4,1960,Total Malays,232200
+5,1960,Total Male Malays,121000
+6,1960,Total Female Malays,111200
+7,1960,Total Chinese,1251600
+8,1960,Total Male Chinese,636000
+9,1960,Total Female Chinese,615600
+10,1960,Total Indians,133200
+11,1960,Total Male Indians,88000
+12,1960,Total Female Indians,45200
+13,1960,Other Ethnic Groups (Total),29400
+14,1960,Other Ethnic Groups (Males),14600
+15,1960,Other Ethnic Groups (Females),14800
+16,1961,Total Residents,1702400
+17,1961,Total Male Residents,886500
+18,1961,Total Female Residents,815900
+19,1961,Total Malays,242500
+20,1961,Total Male Malays,125700
+21,1961,Total Female Malays,116800
+22,1961,Total Chinese,1295000
+23,1961,Total Male Chinese,657600
+24,1961,Total Female Chinese,637400
+25,1961,Total Indians,135700
+26,1961,Total Male Indians,88800
+27,1961,Total Female Indians,46900
+28,1961,Other Ethnic Groups (Total),29200
+29,1961,Other Ethnic Groups (Males),14400
+30,1961,Other Ethnic Groups (Females),14800
+31,1962,Total Residents,1750200
+32,1962,Total Male Residents,909500
+33,1962,Total Female Residents,840700
+34,1962,Total Malays,250300
+35,1962,Total Male Malays,129300
+36,1962,Total Female Malays,121000
+37,1962,Total Chinese,1333000
+38,1962,Total Male Chinese,676500
+39,1962,Total Female Chinese,656500
+40,1962,Total Indians,137100
+41,1962,Total Male Indians,89000
+42,1962,Total Female Indians,48100
+43,1962,Other Ethnic Groups (Total),29800
+44,1962,Other Ethnic Groups (Males),14700
+45,1962,Other Ethnic Groups (Females),15100
+46,1963,Total Residents,1795000
+47,1963,Total Male Residents,929300
+48,1963,Total Female Residents,865700
+49,1963,Total Malays,257200
+50,1963,Total Male Malays,132000
+51,1963,Total Female Malays,125200
+52,1963,Total Chinese,1369300
+53,1963,Total Male Chinese,694200
+54,1963,Total Female Chinese,675100
+55,1963,Total Indians,137400
+56,1963,Total Male Indians,87900
+57,1963,Total Female Indians,49500
+58,1963,Other Ethnic Groups (Total),31100
+59,1963,Other Ethnic Groups (Males),15200
+60,1963,Other Ethnic Groups (Females),15900
+61,1964,Total Residents,1841600
+62,1964,Total Male Residents,951500
+63,1964,Total Female Residents,890100
+64,1964,Total Malays,267000
+65,1964,Total Male Malays,136700
+66,1964,Total Female Malays,130300
+67,1964,Total Chinese,1405500
+68,1964,Total Male Chinese,712300
+69,1964,Total Female Chinese,693200
+70,1964,Total Indians,138400
+71,1964,Total Male Indians,87400
+72,1964,Total Female Indians,51000
+73,1964,Other Ethnic Groups (Total),30700
+74,1964,Other Ethnic Groups (Males),15100
+75,1964,Other Ethnic Groups (Females),15600
+76,1965,Total Residents,1886900
+77,1965,Total Male Residents,973800
+78,1965,Total Female Residents,913100
+79,1965,Total Malays,277000
+80,1965,Total Male Malays,141400
+81,1965,Total Female Malays,135600
+82,1965,Total Chinese,1439500
+83,1965,Total Male Chinese,729500
+84,1965,Total Female Chinese,710000
+85,1965,Total Indians,140500
+86,1965,Total Male Indians,88000
+87,1965,Total Female Indians,52500
+88,1965,Other Ethnic Groups (Total),29900
+89,1965,Other Ethnic Groups (Males),14900
+90,1965,Other Ethnic Groups (Females),15000
+91,1966,Total Residents,1934400
+92,1966,Total Male Residents,995800
+93,1966,Total Female Residents,938600
+94,1966,Total Malays,287700
+95,1966,Total Male Malays,146500
+96,1966,Total Female Malays,141200
+97,1966,Total Chinese,1473800
+98,1966,Total Male Chinese,746700
+99,1966,Total Female Chinese,727100
+100,1966,Total Indians,141200
+101,1966,Total Male Indians,87200
+102,1966,Total Female Indians,54000
+103,1966,Other Ethnic Groups (Total),31700
+104,1966,Other Ethnic Groups (Males),15400
+105,1966,Other Ethnic Groups (Females),16300
+106,1967,Total Residents,1977600
+107,1967,Total Male Residents,1017400
+108,1967,Total Female Residents,960200
+109,1967,Total Malays,295800
+110,1967,Total Male Malays,150400
+111,1967,Total Female Malays,145400
+112,1967,Total Chinese,1504400
+113,1967,Total Male Chinese,762100
+114,1967,Total Female Chinese,742300
+115,1967,Total Indians,142900
+116,1967,Total Male Indians,87500
+117,1967,Total Female Indians,55400
+118,1967,Other Ethnic Groups (Total),34500
+119,1967,Other Ethnic Groups (Males),17400
+120,1967,Other Ethnic Groups (Females),17100
+121,1968,Total Residents,2012000
+122,1968,Total Male Residents,1034100
+123,1968,Total Female Residents,977900
+124,1968,Total Malays,300500
+125,1968,Total Male Malays,152600
+126,1968,Total Female Malays,147900
+127,1968,Total Chinese,1531400
+128,1968,Total Male Chinese,774700
+129,1968,Total Female Chinese,756700
+130,1968,Total Indians,144600
+131,1968,Total Male Indians,88200
+132,1968,Total Female Indians,56400
+133,1968,Other Ethnic Groups (Total),35500
+134,1968,Other Ethnic Groups (Males),18600
+135,1968,Other Ethnic Groups (Females),16900
+136,1969,Total Residents,2042500
+137,1969,Total Male Residents,1046900
+138,1969,Total Female Residents,995600
+139,1969,Total Malays,306000
+140,1969,Total Male Malays,155600
+141,1969,Total Female Malays,150400
+142,1969,Total Chinese,1555000
+143,1969,Total Male Chinese,784900
+144,1969,Total Female Chinese,770100
+145,1969,Total Indians,145100
+146,1969,Total Male Indians,87900
+147,1969,Total Female Indians,57200
+148,1969,Other Ethnic Groups (Total),36400
+149,1969,Other Ethnic Groups (Males),18500
+150,1969,Other Ethnic Groups (Females),17900
+151,1970,Total Residents,2013563
+152,1970,Total Male Residents,1030809
+153,1970,Total Female Residents,982754
+154,1970,Total Malays,298008
+155,1970,Total Male Malays,151795
+156,1970,Total Female Malays,146213
+157,1970,Total Chinese,1551446
+158,1970,Total Male Chinese,782175
+159,1970,Total Female Chinese,769271
+160,1970,Total Indians,140891
+161,1970,Total Male Indians,85083
+162,1970,Total Female Indians,55808
+163,1970,Other Ethnic Groups (Total),23218
+164,1970,Other Ethnic Groups (Males),11756
+165,1970,Other Ethnic Groups (Females),11462
+166,1971,Total Residents,2112900
+167,1971,Total Male Residents,1081200
+168,1971,Total Female Residents,1031700
+169,1971,Total Malays,316300
+170,1971,Total Male Malays,161300
+171,1971,Total Female Malays,155000
+172,1971,Total Chinese,1611100
+173,1971,Total Male Chinese,812100
+174,1971,Total Female Chinese,799000
+175,1971,Total Indians,146300
+176,1971,Total Male Indians,87600
+177,1971,Total Female Indians,58700
+178,1971,Other Ethnic Groups (Total),39200
+179,1971,Other Ethnic Groups (Males),20200
+180,1971,Other Ethnic Groups (Females),19000
+181,1972,Total Residents,2152400
+182,1972,Total Male Residents,1101100
+183,1972,Total Female Residents,1051300
+184,1972,Total Malays,321200
+185,1972,Total Male Malays,164200
+186,1972,Total Female Malays,157000
+187,1972,Total Chinese,1643400
+188,1972,Total Male Chinese,828400
+189,1972,Total Female Chinese,815000
+190,1972,Total Indians,147300
+191,1972,Total Male Indians,87600
+192,1972,Total Female Indians,59700
+193,1972,Other Ethnic Groups (Total),40500
+194,1972,Other Ethnic Groups (Males),20900
+195,1972,Other Ethnic Groups (Females),19600
+196,1973,Total Residents,2193000
+197,1973,Total Male Residents,1121400
+198,1973,Total Female Residents,1071600
+199,1973,Total Malays,326100
+200,1973,Total Male Malays,167100
+201,1973,Total Female Malays,159000
+202,1973,Total Chinese,1676800
+203,1973,Total Male Chinese,845100
+204,1973,Total Female Chinese,831700
+205,1973,Total Indians,148400
+206,1973,Total Male Indians,87600
+207,1973,Total Female Indians,60800
+208,1973,Other Ethnic Groups (Total),41700
+209,1973,Other Ethnic Groups (Males),21600
+210,1973,Other Ethnic Groups (Females),20100
+211,1974,Total Residents,2229800
+212,1974,Total Male Residents,1139700
+213,1974,Total Female Residents,1090100
+214,1974,Total Malays,330200
+215,1974,Total Male Malays,169500
+216,1974,Total Female Malays,160700
+217,1974,Total Chinese,1707100
+218,1974,Total Male Chinese,860200
+219,1974,Total Female Chinese,846900
+220,1974,Total Indians,149400
+221,1974,Total Male Indians,87700
+222,1974,Total Female Indians,61700
+223,1974,Other Ethnic Groups (Total),43100
+224,1974,Other Ethnic Groups (Males),22300
+225,1974,Other Ethnic Groups (Females),20800
+226,1975,Total Residents,2262600
+227,1975,Total Male Residents,1156100
+228,1975,Total Female Residents,1106500
+229,1975,Total Malays,334100
+230,1975,Total Male Malays,171800
+231,1975,Total Female Malays,162300
+232,1975,Total Chinese,1733700
+233,1975,Total Male Chinese,873500
+234,1975,Total Female Chinese,860200
+235,1975,Total Indians,150200
+236,1975,Total Male Indians,87700
+237,1975,Total Female Indians,62500
+238,1975,Other Ethnic Groups (Total),44600
+239,1975,Other Ethnic Groups (Males),23100
+240,1975,Other Ethnic Groups (Females),21500
+241,1976,Total Residents,2293300
+242,1976,Total Male Residents,1171300
+243,1976,Total Female Residents,1122000
+244,1976,Total Malays,337400
+245,1976,Total Male Malays,173700
+246,1976,Total Female Malays,163700
+247,1976,Total Chinese,1758800
+248,1976,Total Male Chinese,886000
+249,1976,Total Female Chinese,872800
+250,1976,Total Indians,151100
+251,1976,Total Male Indians,87800
+252,1976,Total Female Indians,63300
+253,1976,Other Ethnic Groups (Total),46000
+254,1976,Other Ethnic Groups (Males),23800
+255,1976,Other Ethnic Groups (Females),22200
+256,1977,Total Residents,2325300
+257,1977,Total Male Residents,1187300
+258,1977,Total Female Residents,1138000
+259,1977,Total Malays,340700
+260,1977,Total Male Malays,175600
+261,1977,Total Female Malays,165100
+262,1977,Total Chinese,1785300
+263,1977,Total Male Chinese,899300
+264,1977,Total Female Chinese,886000
+265,1977,Total Indians,151900
+266,1977,Total Male Indians,87900
+267,1977,Total Female Indians,64000
+268,1977,Other Ethnic Groups (Total),47400
+269,1977,Other Ethnic Groups (Males),24500
+270,1977,Other Ethnic Groups (Females),22900
+271,1978,Total Residents,2353600
+272,1978,Total Male Residents,1201400
+273,1978,Total Female Residents,1152200
+274,1978,Total Malays,344100
+275,1978,Total Male Malays,177600
+276,1978,Total Female Malays,166500
+277,1978,Total Chinese,1808200
+278,1978,Total Male Chinese,910700
+279,1978,Total Female Chinese,897500
+280,1978,Total Indians,152700
+281,1978,Total Male Indians,87900
+282,1978,Total Female Indians,64800
+283,1978,Other Ethnic Groups (Total),48600
+284,1978,Other Ethnic Groups (Males),25200
+285,1978,Other Ethnic Groups (Females),23400
+286,1979,Total Residents,2383500
+287,1979,Total Male Residents,1216300
+288,1979,Total Female Residents,1167200
+289,1979,Total Malays,347600
+290,1979,Total Male Malays,179600
+291,1979,Total Female Malays,168000
+292,1979,Total Chinese,1832400
+293,1979,Total Male Chinese,922900
+294,1979,Total Female Chinese,909500
+295,1979,Total Indians,153500
+296,1979,Total Male Indians,87900
+297,1979,Total Female Indians,65600
+298,1979,Other Ethnic Groups (Total),50000
+299,1979,Other Ethnic Groups (Males),25900
+300,1979,Other Ethnic Groups (Females),24100
+301,1980,Total Residents,2282125
+302,1980,Total Male Residents,1159011
+303,1980,Total Female Residents,1123114
+304,1980,Total Malays,328718
+305,1980,Total Male Malays,167273
+306,1980,Total Female Malays,161445
+307,1980,Total Chinese,1787816
+308,1980,Total Male Chinese,900259
+309,1980,Total Female Chinese,887557
+310,1980,Total Indians,143404
+311,1980,Total Male Indians,80435
+312,1980,Total Female Indians,62969
+313,1980,Other Ethnic Groups (Total),22187
+314,1980,Other Ethnic Groups (Males),11044
+315,1980,Other Ethnic Groups (Females),11143
+316,1981,Total Residents,2324403
+317,1981,Total Male Residents,1179799
+318,1981,Total Female Residents,1144604
+319,1981,Total Malays,333230
+320,1981,Total Male Malays,169569
+321,1981,Total Female Malays,163661
+322,1981,Total Chinese,1820036
+323,1981,Total Male Chinese,916208
+324,1981,Total Female Chinese,903828
+325,1981,Total Indians,148322
+326,1981,Total Male Indians,82711
+327,1981,Total Female Indians,65611
+328,1981,Other Ethnic Groups (Total),22815
+329,1981,Other Ethnic Groups (Males),11311
+330,1981,Other Ethnic Groups (Females),11504
+331,1982,Total Residents,2365707
+332,1982,Total Male Residents,1200321
+333,1982,Total Female Residents,1165385
+334,1982,Total Malays,337822
+335,1982,Total Male Malays,171895
+336,1982,Total Female Malays,165927
+337,1982,Total Chinese,1851239
+338,1982,Total Male Chinese,931820
+339,1982,Total Female Chinese,919419
+340,1982,Total Indians,153186
+341,1982,Total Male Indians,85015
+342,1982,Total Female Indians,68171
+343,1982,Other Ethnic Groups (Total),23459
+344,1982,Other Ethnic Groups (Males),11591
+345,1982,Other Ethnic Groups (Females),11868
+346,1983,Total Residents,2406165
+347,1983,Total Male Residents,1220471
+348,1983,Total Female Residents,1185694
+349,1983,Total Malays,342701
+350,1983,Total Male Malays,174415
+351,1983,Total Female Malays,168287
+352,1983,Total Chinese,1881299
+353,1983,Total Male Chinese,946832
+354,1983,Total Female Chinese,934466
+355,1983,Total Indians,158008
+356,1983,Total Male Indians,87337
+357,1983,Total Female Indians,70670
+358,1983,Other Ethnic Groups (Total),24158
+359,1983,Other Ethnic Groups (Males),11888
+360,1983,Other Ethnic Groups (Females),12271
+361,1984,Total Residents,2443705
+362,1984,Total Male Residents,1239109
+363,1984,Total Female Residents,1204596
+364,1984,Total Malays,347423
+365,1984,Total Male Malays,176877
+366,1984,Total Female Malays,170547
+367,1984,Total Chinese,1908792
+368,1984,Total Male Chinese,960507
+369,1984,Total Female Chinese,948285
+370,1984,Total Indians,162663
+371,1984,Total Male Indians,89562
+372,1984,Total Female Indians,73100
+373,1984,Other Ethnic Groups (Total),24828
+374,1984,Other Ethnic Groups (Males),12163
+375,1984,Other Ethnic Groups (Females),12664
+376,1985,Total Residents,2482615
+377,1985,Total Male Residents,1258464
+378,1985,Total Female Residents,1224150
+379,1985,Total Malays,352603
+380,1985,Total Male Malays,179551
+381,1985,Total Female Malays,173052
+382,1985,Total Chinese,1937090
+383,1985,Total Male Chinese,974620
+384,1985,Total Female Chinese,962470
+385,1985,Total Indians,167351
+386,1985,Total Male Indians,91819
+387,1985,Total Female Indians,75532
+388,1985,Other Ethnic Groups (Total),25572
+389,1985,Other Ethnic Groups (Males),12474
+390,1985,Other Ethnic Groups (Females),13098
+391,1986,Total Residents,2518598
+392,1986,Total Male Residents,1276522
+393,1986,Total Female Residents,1242077
+394,1986,Total Malays,357878
+395,1986,Total Male Malays,182361
+396,1986,Total Female Malays,175517
+397,1986,Total Chinese,1962855
+398,1986,Total Male Chinese,987443
+399,1986,Total Female Chinese,975412
+400,1986,Total Indians,171699
+401,1986,Total Male Indians,93975
+402,1986,Total Female Indians,77724
+403,1986,Other Ethnic Groups (Total),26166
+404,1986,Other Ethnic Groups (Males),12742
+405,1986,Other Ethnic Groups (Females),13424
+406,1987,Total Residents,2553864
+407,1987,Total Male Residents,1294187
+408,1987,Total Female Residents,1259676
+409,1987,Total Malays,363035
+410,1987,Total Male Malays,184979
+411,1987,Total Female Malays,178056
+412,1987,Total Chinese,1988046
+413,1987,Total Male Chinese,1000007
+414,1987,Total Female Chinese,988039
+415,1987,Total Indians,176112
+416,1987,Total Male Indians,96204
+417,1987,Total Female Indians,79908
+418,1987,Other Ethnic Groups (Total),26671
+419,1987,Other Ethnic Groups (Males),12995
+420,1987,Other Ethnic Groups (Females),13676
+421,1988,Total Residents,2598458
+422,1988,Total Male Residents,1316577
+423,1988,Total Female Residents,1281880
+424,1988,Total Malays,369010
+425,1988,Total Male Malays,188129
+426,1988,Total Female Malays,180880
+427,1988,Total Chinese,2021529
+428,1988,Total Male Chinese,1016798
+429,1988,Total Female Chinese,1004731
+430,1988,Total Indians,180704
+431,1988,Total Male Indians,98417
+432,1988,Total Female Indians,82287
+433,1988,Other Ethnic Groups (Total),27215
+434,1988,Other Ethnic Groups (Males),13233
+435,1988,Other Ethnic Groups (Females),13982
+436,1989,Total Residents,2647627
+437,1989,Total Male Residents,1341275
+438,1989,Total Female Residents,1306352
+439,1989,Total Malays,375404
+440,1989,Total Male Malays,191485
+441,1989,Total Female Malays,183920
+442,1989,Total Chinese,2059130
+443,1989,Total Male Chinese,1035650
+444,1989,Total Female Chinese,1023479
+445,1989,Total Indians,185308
+446,1989,Total Male Indians,100669
+447,1989,Total Female Indians,84639
+448,1989,Other Ethnic Groups (Total),27785
+449,1989,Other Ethnic Groups (Males),13472
+450,1989,Other Ethnic Groups (Females),14313
+451,1990,Total Residents,2735868
+452,1990,Total Male Residents,1386291
+453,1990,Total Female Residents,1349577
+454,1990,Total Malays,384338
+455,1990,Total Male Malays,195950
+456,1990,Total Female Malays,188388
+457,1990,Total Chinese,2127872
+458,1990,Total Male Chinese,1071055
+459,1990,Total Female Chinese,1056817
+460,1990,Total Indians,194048
+461,1990,Total Male Indians,104996
+462,1990,Total Female Indians,89052
+463,1990,Other Ethnic Groups (Total),29610
+464,1990,Other Ethnic Groups (Males),14290
+465,1990,Other Ethnic Groups (Females),15320
+466,1991,Total Residents,2794704
+467,1991,Total Male Residents,1414307
+468,1991,Total Female Residents,1380397
+469,1991,Total Malays,392396
+470,1991,Total Male Malays,199840
+471,1991,Total Female Malays,192556
+472,1991,Total Chinese,2172300
+473,1991,Total Male Chinese,1092546
+474,1991,Total Female Chinese,1079754
+475,1991,Total Indians,198779
+476,1991,Total Male Indians,106928
+477,1991,Total Female Indians,91852
+478,1991,Other Ethnic Groups (Total),31230
+479,1991,Other Ethnic Groups (Males),14993
+480,1991,Other Ethnic Groups (Females),16236
+481,1992,Total Residents,2849754
+482,1992,Total Male Residents,1439063
+483,1992,Total Female Residents,1410691
+484,1992,Total Malays,400291
+485,1992,Total Male Malays,203455
+486,1992,Total Female Malays,196836
+487,1992,Total Chinese,2213002
+488,1992,Total Male Chinese,1111147
+489,1992,Total Female Chinese,1101855
+490,1992,Total Indians,203649
+491,1992,Total Male Indians,108869
+492,1992,Total Female Indians,94780
+493,1992,Other Ethnic Groups (Total),32812
+494,1992,Other Ethnic Groups (Males),15592
+495,1992,Other Ethnic Groups (Females),17220
+496,1993,Total Residents,2904547
+497,1993,Total Male Residents,1464223
+498,1993,Total Female Residents,1440324
+499,1993,Total Malays,408084
+500,1993,Total Male Malays,207140
+501,1993,Total Female Malays,200944
+502,1993,Total Chinese,2253587
+503,1993,Total Male Chinese,1130006
+504,1993,Total Female Chinese,1123581
+505,1993,Total Indians,208548
+506,1993,Total Male Indians,110938
+507,1993,Total Female Indians,97610
+508,1993,Other Ethnic Groups (Total),34328
+509,1993,Other Ethnic Groups (Males),16139
+510,1993,Other Ethnic Groups (Females),18189
+511,1994,Total Residents,2959350
+512,1994,Total Male Residents,1489180
+513,1994,Total Female Residents,1470171
+514,1994,Total Malays,415990
+515,1994,Total Male Malays,210859
+516,1994,Total Female Malays,205131
+517,1994,Total Chinese,2293201
+518,1994,Total Male Chinese,1148073
+519,1994,Total Female Chinese,1145128
+520,1994,Total Indians,214276
+521,1994,Total Male Indians,113504
+522,1994,Total Female Indians,100772
+523,1994,Other Ethnic Groups (Total),35884
+524,1994,Other Ethnic Groups (Males),16744
+525,1994,Other Ethnic Groups (Females),19140
+526,1995,Total Residents,3013515
+527,1995,Total Male Residents,1514015
+528,1995,Total Female Residents,1499500
+529,1995,Total Malays,423257
+530,1995,Total Male Malays,214148
+531,1995,Total Female Malays,209109
+532,1995,Total Chinese,2332878
+533,1995,Total Male Chinese,1166321
+534,1995,Total Female Chinese,1166557
+535,1995,Total Indians,220266
+536,1995,Total Male Indians,116301
+537,1995,Total Female Indians,103965
+538,1995,Other Ethnic Groups (Total),37114
+539,1995,Other Ethnic Groups (Males),17245
+540,1995,Other Ethnic Groups (Females),19870
+541,1996,Total Residents,3068132
+542,1996,Total Male Residents,1540018
+543,1996,Total Female Residents,1528113
+544,1996,Total Malays,430074
+545,1996,Total Male Malays,217366
+546,1996,Total Female Malays,212708
+547,1996,Total Chinese,2371807
+548,1996,Total Male Chinese,1184861
+549,1996,Total Female Chinese,1186945
+550,1996,Total Indians,227746
+551,1996,Total Male Indians,119893
+552,1996,Total Female Indians,107852
+553,1996,Other Ethnic Groups (Total),38505
+554,1996,Other Ethnic Groups (Males),17898
+555,1996,Other Ethnic Groups (Females),20607
+556,1997,Total Residents,3123403
+557,1997,Total Male Residents,1565750
+558,1997,Total Female Residents,1557653
+559,1997,Total Malays,436659
+560,1997,Total Male Malays,220418
+561,1997,Total Female Malays,216241
+562,1997,Total Chinese,2410107
+563,1997,Total Male Chinese,1202346
+564,1997,Total Female Chinese,1207760
+565,1997,Total Indians,236431
+566,1997,Total Male Indians,124214
+567,1997,Total Female Indians,112218
+568,1997,Other Ethnic Groups (Total),40206
+569,1997,Other Ethnic Groups (Males),18772
+570,1997,Other Ethnic Groups (Females),21434
+571,1998,Total Residents,3180018
+572,1998,Total Male Residents,1591816
+573,1998,Total Female Residents,1588202
+574,1998,Total Malays,443349
+575,1998,Total Male Malays,223404
+576,1998,Total Female Malays,219945
+577,1998,Total Chinese,2448687
+578,1998,Total Male Chinese,1219890
+579,1998,Total Female Chinese,1228797
+580,1998,Total Indians,245774
+581,1998,Total Male Indians,128828
+582,1998,Total Female Indians,116946
+583,1998,Other Ethnic Groups (Total),42209
+584,1998,Other Ethnic Groups (Males),19694
+585,1998,Other Ethnic Groups (Females),22515
+586,1999,Total Residents,3229681
+587,1999,Total Male Residents,1614804
+588,1999,Total Female Residents,1614877
+589,1999,Total Malays,449482
+590,1999,Total Male Malays,226306
+591,1999,Total Female Malays,223176
+592,1999,Total Chinese,2482640
+593,1999,Total Male Chinese,1235326
+594,1999,Total Female Chinese,1247314
+595,1999,Total Indians,253304
+596,1999,Total Male Indians,132410
+597,1999,Total Female Indians,120894
+598,1999,Other Ethnic Groups (Total),44256
+599,1999,Other Ethnic Groups (Males),20763
+600,1999,Other Ethnic Groups (Females),23494
+601,2000,Total Residents,3273363
+602,2000,Total Male Residents,1634667
+603,2000,Total Female Residents,1638696
+604,2000,Total Malays,455207
+605,2000,Total Male Malays,228850
+606,2000,Total Female Malays,226357
+607,2000,Total Chinese,2513847
+608,2000,Total Male Chinese,1249662
+609,2000,Total Female Chinese,1264185
+610,2000,Total Indians,257866
+611,2000,Total Male Indians,134337
+612,2000,Total Female Indians,123529
+613,2000,Other Ethnic Groups (Total),46443
+614,2000,Other Ethnic Groups (Males),21818
+615,2000,Other Ethnic Groups (Females),24625
+616,2001,Total Residents,3325902
+617,2001,Total Male Residents,1658558
+618,2001,Total Female Residents,1667344
+619,2001,Total Malays,461788
+620,2001,Total Male Malays,231970
+621,2001,Total Female Malays,229818
+622,2001,Total Chinese,2552077
+623,2001,Total Male Chinese,1267019
+624,2001,Total Female Chinese,1285058
+625,2001,Total Indians,262968
+626,2001,Total Male Indians,136485
+627,2001,Total Female Indians,126483
+628,2001,Other Ethnic Groups (Total),49069
+629,2001,Other Ethnic Groups (Males),23084
+630,2001,Other Ethnic Groups (Females),25985
+631,2002,Total Residents,3382944
+632,2002,Total Male Residents,1684295
+633,2002,Total Female Residents,1698649
+634,2002,Total Malays,468360
+635,2002,Total Male Malays,235076
+636,2002,Total Female Malays,233284
+637,2002,Total Chinese,2589525
+638,2002,Total Male Chinese,1283362
+639,2002,Total Female Chinese,1306163
+640,2002,Total Indians,271923
+641,2002,Total Male Indians,140768
+642,2002,Total Female Indians,131155
+643,2002,Other Ethnic Groups (Total),53136
+644,2002,Other Ethnic Groups (Males),25089
+645,2002,Other Ethnic Groups (Females),28047
+646,2003,Total Residents,3366891
+647,2003,Total Male Residents,1673401
+648,2003,Total Female Residents,1693490
+649,2003,Total Malays,469791
+650,2003,Total Male Malays,235597
+651,2003,Total Female Malays,234194
+652,2003,Total Chinese,2572607
+653,2003,Total Male Chinese,1273256
+654,2003,Total Female Chinese,1299351
+655,2003,Total Indians,269899
+656,2003,Total Male Indians,138642
+657,2003,Total Female Indians,131257
+658,2003,Other Ethnic Groups (Total),54594
+659,2003,Other Ethnic Groups (Males),25906
+660,2003,Other Ethnic Groups (Females),28688
+661,2004,Total Residents,3413266
+662,2004,Total Male Residents,1695031
+663,2004,Total Female Residents,1718235
+664,2004,Total Malays,475689
+665,2004,Total Male Malays,238236
+666,2004,Total Female Malays,237453
+667,2004,Total Chinese,2599813
+668,2004,Total Male Chinese,1285557
+669,2004,Total Female Chinese,1314256
+670,2004,Total Indians,278106
+671,2004,Total Male Indians,142754
+672,2004,Total Female Indians,135352
+673,2004,Other Ethnic Groups (Total),59658
+674,2004,Other Ethnic Groups (Males),28484
+675,2004,Other Ethnic Groups (Females),31174
+676,2005,Total Residents,3467814
+677,2005,Total Male Residents,1721139
+678,2005,Total Female Residents,1746675
+679,2005,Total Malays,480722
+680,2005,Total Male Malays,240406
+681,2005,Total Female Malays,240316
+682,2005,Total Chinese,2626723
+683,2005,Total Male Chinese,1297849
+684,2005,Total Female Chinese,1328874
+685,2005,Total Indians,291131
+686,2005,Total Male Indians,149621
+687,2005,Total Female Indians,141510
+745,2009,Total Indians,343509
+688,2005,Other Ethnic Groups (Total),69238
+689,2005,Other Ethnic Groups (Males),33263
+690,2005,Other Ethnic Groups (Females),35975
+691,2006,Total Residents,3525894
+692,2006,Total Male Residents,1748242
+693,2006,Total Female Residents,1777652
+694,2006,Total Malays,485978
+695,2006,Total Male Malays,242759
+696,2006,Total Female Malays,243219
+697,2006,Total Chinese,2656358
+698,2006,Total Male Chinese,1310873
+699,2006,Total Female Chinese,1345485
+700,2006,Total Indians,303096
+701,2006,Total Male Indians,155938
+702,2006,Total Female Indians,147158
+703,2006,Other Ethnic Groups (Total),80462
+704,2006,Other Ethnic Groups (Males),38672
+705,2006,Other Ethnic Groups (Females),41790
+706,2007,Total Residents,3583082
+707,2007,Total Male Residents,1775477
+708,2007,Total Female Residents,1807605
+709,2007,Total Malays,490552
+710,2007,Total Male Malays,244969
+711,2007,Total Female Malays,245583
+712,2007,Total Chinese,2686997
+713,2007,Total Male Chinese,1324715
+714,2007,Total Female Chinese,1362282
+715,2007,Total Indians,313395
+716,2007,Total Male Indians,161484
+717,2007,Total Female Indians,151911
+718,2007,Other Ethnic Groups (Total),92138
+719,2007,Other Ethnic Groups (Males),44309
+720,2007,Other Ethnic Groups (Females),47829
+721,2008,Total Residents,3642659
+722,2008,Total Male Residents,1802992
+723,2008,Total Female Residents,1839667
+724,2008,Total Malays,495110
+725,2008,Total Male Malays,247017
+726,2008,Total Female Malays,248093
+727,2008,Total Chinese,2721779
+728,2008,Total Male Chinese,1339596
+729,2008,Total Female Chinese,1382183
+730,2008,Total Indians,323431
+731,2008,Total Male Indians,167149
+732,2008,Total Female Indians,156282
+733,2008,Other Ethnic Groups (Total),102339
+734,2008,Other Ethnic Groups (Males),49230
+735,2008,Other Ethnic Groups (Females),53109
+736,2009,Total Residents,3733876
+737,2009,Total Male Residents,1844732
+738,2009,Total Female Residents,1889144
+739,2009,Total Malays,500051
+740,2009,Total Male Malays,249115
+741,2009,Total Female Malays,250936
+742,2009,Total Chinese,2770303
+743,2009,Total Male Chinese,1360224
+744,2009,Total Female Chinese,1410079
+746,2009,Total Male Indians,178129
+747,2009,Total Female Indians,165380
+748,2009,Other Ethnic Groups (Total),120013
+749,2009,Other Ethnic Groups (Males),57264
+750,2009,Other Ethnic Groups (Females),62749
+751,2010,Total Residents,3771721
+752,2010,Total Male Residents,1861133
+753,2010,Total Female Residents,1910588
+754,2010,Total Malays,503868
+755,2010,Total Male Malays,250885
+756,2010,Total Female Malays,252983
+757,2010,Total Chinese,2793980
+758,2010,Total Male Chinese,1370083
+759,2010,Total Female Chinese,1423897
+760,2010,Total Indians,348119
+761,2010,Total Male Indians,180327
+762,2010,Total Female Indians,167792
+763,2010,Other Ethnic Groups (Total),125754
+764,2010,Other Ethnic Groups (Males),59838
+765,2010,Other Ethnic Groups (Females),65916
+766,2011,Total Residents,3789251
+767,2011,Total Male Residents,1868170
+768,2011,Total Female Residents,1921081
+769,2011,Total Malays,506637
+770,2011,Total Male Malays,252227
+771,2011,Total Female Malays,254410
+772,2011,Total Chinese,2808254
+773,2011,Total Male Chinese,1375665
+774,2011,Total Female Chinese,1432589
+775,2011,Total Indians,349036
+776,2011,Total Male Indians,180548
+777,2011,Total Female Indians,168488
+778,2011,Other Ethnic Groups (Total),125324
+779,2011,Other Ethnic Groups (Males),59730
+780,2011,Other Ethnic Groups (Females),65594
+781,2012,Total Residents,3818205
+782,2012,Total Male Residents,1880046
+783,2012,Total Female Residents,1938159
+784,2012,Total Malays,509519
+785,2012,Total Male Malays,253578
+786,2012,Total Female Malays,255941
+787,2012,Total Chinese,2831984
+788,2012,Total Male Chinese,1385606
+789,2012,Total Female Chinese,1446378
+790,2012,Total Indians,351025
+791,2012,Total Male Indians,180948
+792,2012,Total Female Indians,170077
+793,2012,Other Ethnic Groups (Total),125677
+794,2012,Other Ethnic Groups (Males),59914
+795,2012,Other Ethnic Groups (Females),65763
+796,2013,Total Residents,3844751
+797,2013,Total Male Residents,1891504
+798,2013,Total Female Residents,1953247
+799,2013,Total Malays,512837
+800,2013,Total Male Malays,255176
+801,2013,Total Female Malays,257661
+802,2013,Total Chinese,2853751
+803,2013,Total Male Chinese,1395183
+804,2013,Total Female Chinese,1458568
+805,2013,Total Indians,351667
+806,2013,Total Male Indians,180889
+807,2013,Total Female Indians,170778
+808,2013,Other Ethnic Groups (Total),126496
+809,2013,Other Ethnic Groups (Males),60256
+810,2013,Other Ethnic Groups (Females),66240
+811,2014,Total Residents,3870739
+812,2014,Total Male Residents,1902410
+813,2014,Total Female Residents,1968329
+814,2014,Total Malays,516657
+815,2014,Total Male Malays,257036
+816,2014,Total Female Malays,259621
+817,2014,Total Chinese,2874380
+818,2014,Total Male Chinese,1403927
+819,2014,Total Female Chinese,1470453
+820,2014,Total Indians,353021
+821,2014,Total Male Indians,181359
+822,2014,Total Female Indians,171662
+823,2014,Other Ethnic Groups (Total),126681
+824,2014,Other Ethnic Groups (Males),60088
+825,2014,Other Ethnic Groups (Females),66593
+826,2015,Total Residents,3902690
+827,2015,Total Male Residents,1916628
+828,2015,Total Female Residents,1986062
+829,2015,Total Malays,520923
+830,2015,Total Male Malays,259108
+831,2015,Total Female Malays,261815
+832,2015,Total Chinese,2900007
+833,2015,Total Male Chinese,1415303
+834,2015,Total Female Chinese,1484704
+835,2015,Total Indians,354952
+836,2015,Total Male Indians,182304
+837,2015,Total Female Indians,172648
+838,2015,Other Ethnic Groups (Total),126808
+839,2015,Other Ethnic Groups (Males),59913
+840,2015,Other Ethnic Groups (Females),66895
+841,2016,Total Residents,3933559
+842,2016,Total Male Residents,1929526
+843,2016,Total Female Residents,2004033
+844,2016,Total Malays,525888
+845,2016,Total Male Malays,261564
+846,2016,Total Female Malays,264324
+847,2016,Total Chinese,2923172
+848,2016,Total Male Chinese,1425244
+849,2016,Total Female Chinese,1497928
+850,2016,Total Indians,356876
+851,2016,Total Male Indians,182935
+852,2016,Total Female Indians,173941
+853,2016,Other Ethnic Groups (Total),127623
+854,2016,Other Ethnic Groups (Males),59783
+855,2016,Other Ethnic Groups (Females),67840

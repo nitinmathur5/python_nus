@@ -34,7 +34,7 @@ twitter = Twitter(auth = OAuth(config["access_key"], config["access_secret"],
 
 
 def write_header_to_a_csv_file():
-    with open(filename, "ab") as csvfile:
+    with open(filename, "wb") as csvfile:
         csv_writer = csv.writer(csvfile)
         csv_writer.writerow(["sno","created_at","screen_name","Sentiment", "Sentiment confidence", "tweet"])
 
@@ -44,8 +44,11 @@ def write_to_csv(sno,created_at, screen_name, sentiment_polarity, sentiment_conf
         csv_writer.writerow([sno,created_at,screen_name,sentiment_polarity,sentiment_confidence, tweet]) 
 
 def get_sentiment(sentiment_string):
-    response = allient_client.Sentiment({'text': sentiment_string})
-    return (response['polarity'], str(response['polarity_confidence']))
+    try:
+        response = allient_client.Sentiment({'text': sentiment_string})
+        return (response['polarity'], str(response['polarity_confidence']))
+    except:
+        return ("Fake", "Fake")
 
 def draw_plot():
     with open (filename, 'r') as data:
@@ -73,38 +76,44 @@ def draw_plot():
 # Twitter API docs:
 # https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets.html
 #-----------------------------------------------------------------------
-maxTweets = 10000   # Some arbitrary large number
-tweetsPerQry = 100  # this is the max the API permits
-#searchQuery = 'ONGC'  # this is what we're searching for
+maxTweets = 30   # Some arbitrary large number
+tweetsPerQry = 5  # this is the max the API permits
 searchQuery = raw_input("What stock do you want to analyze?\n")
 tweetCount = 0
 data = []
 
 write_header_to_a_csv_file()
-
+max_id_str = 0
 while (tweetCount < maxTweets) :
-    if (tweetCount == 0) :
+    '''if (tweetCount == 0) :
         query  = twitter.search.tweets(q = searchQuery,lang="en",count=tweetsPerQry)
+        print "Search complete (%.3f seconds)" % (query["search_metadata"]["completed_in"])
     else :
         query  = twitter.search.tweets(q = searchQuery,lang="en",count=tweetsPerQry,max_id=max_id_str)
-
-    #pprint (query)      
+        print "Search complete (%.3f seconds)" % (query["search_metadata"]["completed_in"])
+    '''
+    query  = twitter.search.tweets(q = searchQuery,lang="en",count=tweetsPerQry,max_id=max_id_str)
+    print "Search complete (%.3f seconds)" % (query["search_metadata"]["completed_in"])
+    #pprint (query) 
+    _data = []  
     for result in query["statuses"]:
         #print "(%s) @%s %s" % (result["created_at"], result["user"]["screen_name"], result["text"])
-        data = [result["created_at"], result["user"]["screen_name"], result["text"]]
-        data = map(lambda x: x.encode('unicode-escape').decode('utf-8'),data) 
-        #print(data)
-        print "Analyzing Tweet " + str(tweetCount)
-        sentiment_polarity, sentiment_confidence = get_sentiment(data[2])
-        write_to_csv(tweetCount,data[0], data[1], sentiment_polarity, str(sentiment_confidence), data[2])
-        tweetCount += 1
+        if result["text"] not in _data:
+            data = [result["created_at"], result["user"]["screen_name"], result["text"]]
+            data = map(lambda x: x.encode('unicode-escape').decode('utf-8'),data) 
+            #print(data)
+            _data = result["text"]
+            print "Analyzing Tweet " + str(tweetCount)
+            sentiment_polarity, sentiment_confidence = get_sentiment(data[2])
+            write_to_csv(tweetCount,data[0], data[1], sentiment_polarity, str(sentiment_confidence), data[2])
+            tweetCount += 1
     pprint(tweetCount)         
     try : 
         new_url = query["search_metadata"]["next_results"] 
         max_id_str =new_url.split("&")[0].split("=")[-1]
         pprint ((max_id_str))
-        #pprint (data)       
-    except KeyError: 
-        print("No more tweets found")
+        #pprint (data)
+    except KeyError, e: 
+        print("No more tweets found %s" %e)
         break
 draw_plot()

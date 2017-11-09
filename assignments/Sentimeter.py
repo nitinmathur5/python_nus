@@ -1,7 +1,7 @@
 from twitter import *
 import requests
 import json
-import csv
+import csv, re
 from pprint import pprint
 from collections import Counter
 from aylienapiclient import textapi
@@ -11,6 +11,15 @@ import matplotlib.pyplot as plt
 #-----------------------------------------------------------------------
 
 filename = "twitter_project.csv"
+#-----------------------------------------------------------------------
+# perform a basic search 
+# Twitter API docs:
+# https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets.html
+#-----------------------------------------------------------------------
+maxTweets = 300   # Some arbitrary large number
+tweetsPerQry = 10  # this is the max the API permits
+searchQuery = raw_input("What stock do you want to analyze?\n")
+tweetCount = 0
 
 #-----------------------------------------------------------------------
 # Create Twitter API credentials 
@@ -71,49 +80,45 @@ def draw_plot():
         plt.title("Sentiment of {} Tweets about {}".format(tweetCount, searchQuery))
         plt.show()
 
-#-----------------------------------------------------------------------
-# perform a basic search 
-# Twitter API docs:
-# https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets.html
-#-----------------------------------------------------------------------
-maxTweets = 30   # Some arbitrary large number
-tweetsPerQry = 5  # this is the max the API permits
-searchQuery = raw_input("What stock do you want to analyze?\n")
-tweetCount = 0
-data = []
+def clean_data(clean_this_tweet):
+    #remove anything that comes after url
+    '''url_string = "http"
+    if url_string in clean_this_tweet:
+        clean_this_tweet  = re.sub(r'http\S+', '', clean_this_tweet)
+        #print clean_this_tweet
+    '''
+    clean_this_tweet = re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%)*\b', '', clean_this_tweet, flags=re.MULTILINE)
+    return clean_this_tweet
 
+def remove_urls (myTweet):
+    myTweet = re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%)*\b', '', myTweet, flags=re.MULTILINE)
+    return(myTweet)
+
+
+data = []
 write_header_to_a_csv_file()
 max_id_str = 0
 while (tweetCount < maxTweets) :
-    '''if (tweetCount == 0) :
-        query  = twitter.search.tweets(q = searchQuery,lang="en",count=tweetsPerQry)
-        print "Search complete (%.3f seconds)" % (query["search_metadata"]["completed_in"])
-    else :
-        query  = twitter.search.tweets(q = searchQuery,lang="en",count=tweetsPerQry,max_id=max_id_str)
-        print "Search complete (%.3f seconds)" % (query["search_metadata"]["completed_in"])
-    '''
     query  = twitter.search.tweets(q = searchQuery,lang="en",count=tweetsPerQry,max_id=max_id_str)
-    print "Search complete (%.3f seconds)" % (query["search_metadata"]["completed_in"])
-    #pprint (query) 
+    print "Searched in (%.3f seconds)" % (query["search_metadata"]["completed_in"])
     _data = []  
     for result in query["statuses"]:
-        #print "(%s) @%s %s" % (result["created_at"], result["user"]["screen_name"], result["text"])
-        if result["text"] not in _data:
+        if result["text"].strip() not in _data:
             data = [result["created_at"], result["user"]["screen_name"], result["text"]]
-            data = map(lambda x: x.encode('unicode-escape').decode('utf-8'),data) 
-            #print(data)
-            _data = result["text"]
-            print "Analyzing Tweet " + str(tweetCount)
+            data = map(lambda x: x.encode('unicode-escape').decode('utf-8'),data)
+            data[2] = remove_urls(data[2])
+            _data = data[2].strip()
             sentiment_polarity, sentiment_confidence = get_sentiment(data[2])
             write_to_csv(tweetCount,data[0], data[1], sentiment_polarity, str(sentiment_confidence), data[2])
             tweetCount += 1
-    pprint(tweetCount)         
+            print "Analyzing Tweet " + str(tweetCount)
+    #pprint(tweetCount)         
     try : 
         new_url = query["search_metadata"]["next_results"] 
         max_id_str =new_url.split("&")[0].split("=")[-1]
         pprint ((max_id_str))
         #pprint (data)
-    except KeyError, e: 
-        print("No more tweets found %s" %e)
+    except KeyError: 
+        print("No more tweets found")
         break
 draw_plot()

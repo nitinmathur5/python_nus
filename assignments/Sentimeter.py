@@ -16,8 +16,8 @@ filename = "twitter_project.csv"
 # Twitter API docs:
 # https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets.html
 #-----------------------------------------------------------------------
-maxTweets = 300   # Some arbitrary large number
-tweetsPerQry = 10  # this is the max the API permits
+maxTweets = 30000   # Some arbitrary large number
+tweetsPerQry = 100  # this is the max the API permits
 searchQuery = raw_input("What stock do you want to analyze?\n")
 tweetCount = 0
 

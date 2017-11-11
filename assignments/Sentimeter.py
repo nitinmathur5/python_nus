@@ -6,11 +6,7 @@ from pprint import pprint
 from collections import Counter
 from aylienapiclient import textapi
 import matplotlib.pyplot as plt
-#-----------------------------------------------------------------------
-# filename for saving the twitter data
-#-----------------------------------------------------------------------
-
-filename = "twitter_project.csv"
+import numpy
 #-----------------------------------------------------------------------
 # perform a basic search 
 # Twitter API docs:
@@ -20,7 +16,7 @@ maxTweets = 30000   # Some arbitrary large number
 tweetsPerQry = 100  # this is the max the API permits
 searchQuery = raw_input("What stock do you want to analyze?\n")
 tweetCount = 0
-
+filename = searchQuery + ".csv"
 #-----------------------------------------------------------------------
 # Create Twitter API credentials 
 #-----------------------------------------------------------------------
@@ -72,10 +68,16 @@ def draw_plot():
         sizes = [positive, negative, neutral]
         labels = 'Positive', 'Negative', 'Neutral'
 
+        def absolute_value(val):
+            numpy_sizes = numpy.array([positive, negative, neutral])
+            return numpy.round(val/100*numpy_sizes.sum(), 0)
+
         plt.pie(x=sizes,
         shadow=True,
         colors=colors,
         labels=labels,
+        #autopct=absolute_value,
+        autopct="%.2f",
         startangle=90)
         plt.title("Sentiment of {} Tweets about {}".format(tweetCount, searchQuery))
         plt.show()
@@ -93,7 +95,6 @@ def clean_data(clean_this_tweet):
 def remove_urls (myTweet):
     myTweet = re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%)*\b', '', myTweet, flags=re.MULTILINE)
     return(myTweet)
-
 
 data = []
 write_header_to_a_csv_file()
